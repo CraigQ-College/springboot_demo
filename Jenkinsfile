@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ('GetProject') {
             steps {
-                git branch:'main', url:'https://github.com/Chadlikouider/springboot_1.git'
+                git branch:'main', url:'https://github.com/CraigQ-College/springboot_demo.git'
             }
         }
         stage ('build') {
